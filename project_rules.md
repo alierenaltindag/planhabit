@@ -10,7 +10,7 @@ This document outlines the rules, standards, and structure for the Planner and H
 -   **Language**: TypeScript
 -   **Styling**: Use `shadcn/ui` components (based on Radix UI and Tailwind CSS).
 -   **Icons**: Use `lucide-react`.
--   **State Management**: Use `swr` for server state. Use React Context for global UI state (like themes).
+-   **State Management**: Use `swr` for server state. Use `zustand` for global client state. Use React Context only for static providers (like themes).
 -   **Validation**: Use `zod` for form validation.
 -   **Forms**: Use `react-hook-form` combined with `zod`.
 -   **Authentication**: Use custom authentication with JWT.
