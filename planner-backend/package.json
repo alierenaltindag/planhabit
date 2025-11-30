@@ -18,11 +18,11 @@
   },
   "scripts": {
     "dev": "bun run --watch src/app.ts",
-    "start": "bun run src/app.ts"
+    "start": "bun run src/app.ts",
+    "db:init": "bun run scripts/init-db.ts"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
-    "better-auth": "^1.4.3",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
